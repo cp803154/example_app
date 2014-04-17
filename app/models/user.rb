@@ -1,7 +1,7 @@
 class User < ActiveRecord::Base
-  attr_accessible :name, :email
+  #attr_accessible :name, :email
 
 
-  #validates :name, presence: true
+  validates :name, presence: true
 
 end
